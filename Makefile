@@ -7,7 +7,7 @@ DIALYZER = dialyzer
 
 APPS = kernel stdlib sasl inets ssl public_key crypto compiler
 
-all: compile doc
+all: compile
 
 compile:
 	$(REBAR) compile
